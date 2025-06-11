@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   # localhost:300/posts/index
   # localhost:300/posts/new
-  resources :posts, only:[:index, :new]
+  resources :posts, only:[:index, :new, :create]
 end
